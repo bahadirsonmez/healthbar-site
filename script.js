@@ -5,7 +5,7 @@ document.querySelectorAll('[data-carousel]').forEach((scroller)=>{
   const track=scroller.querySelector('.carousel-track');
   if(!track||reduceMotion)return;
   [...track.children].forEach((item)=>{const clone=item.cloneNode(true);clone.setAttribute('aria-hidden','true');clone.querySelectorAll('img').forEach((img)=>img.alt='');track.append(clone);});
-  const speed=Number(scroller.dataset.speed||42);
+  const speed=Number(scroller.dataset.speed||55);
   let resumeAt=0,last=performance.now(),initialized=false;
   const pause=()=>{resumeAt=performance.now()+3500;};
   ['pointerdown','pointerup','pointercancel','touchstart','touchend','wheel','keydown'].forEach((event)=>scroller.addEventListener(event,pause,{passive:true}));
