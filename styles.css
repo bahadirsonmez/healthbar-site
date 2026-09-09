@@ -22,7 +22,7 @@ a{color:inherit}
 .button:hover{transform:translateY(-2px)}
 .soft-link{font-weight:750;text-underline-offset:.25em}
 .meta{font-size:.82rem;color:var(--muted);margin-top:1.25rem}
-.hero-art{position:relative;min-height:650px;isolation:isolate}
+.hero-art{position:relative;min-height:830px;isolation:isolate}
 .hero-art::before{content:"";position:absolute;inset:6% -5% 0;background:var(--mint);border:2px solid var(--deep);border-radius:48% 48% 18% 18%;transform:rotate(3deg);z-index:-1}
 .phone{position:absolute;width:min(76%,390px);height:auto;right:7%;top:2%;border:8px solid #1d2c23;border-radius:42px;box-shadow:0 24px 55px #17382333}
 .hero-demo{aspect-ratio:590/1206;object-fit:cover;background:#071826}
@@ -66,7 +66,7 @@ footer>div{display:flex;gap:1rem}
 footer a{text-underline-offset:.25em}
 @media(max-width:800px){.nav nav>a:not(.pill){display:none}
 .hero{grid-template-columns:1fr;padding-top:4rem}
-.hero-art{min-height:600px}
+.hero-art{min-height:830px}
 .hero-art::before{inset:6% 0 0}
 .hp{left:0}
 .steps{grid-template-columns:1fr}
@@ -78,7 +78,7 @@ footer a{text-underline-offset:.25em}
 footer{grid-template-columns:1fr}
 footer>div{flex-wrap:wrap}
 }
-@media(max-width:460px){.hero-art{min-height:520px}
+@media(max-width:460px){.hero-art{min-height:700px}
 .phone{width:78%;right:0}
 .ronnie{width:46%}
 .hp{top:3%;width:128px}
