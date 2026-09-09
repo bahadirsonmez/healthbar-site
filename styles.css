@@ -25,6 +25,7 @@ a{color:inherit}
 .hero-art{position:relative;min-height:650px;isolation:isolate}
 .hero-art::before{content:"";position:absolute;inset:6% -5% 0;background:var(--mint);border:2px solid var(--deep);border-radius:48% 48% 18% 18%;transform:rotate(3deg);z-index:-1}
 .phone{position:absolute;width:min(76%,390px);height:auto;right:7%;top:2%;border:8px solid #1d2c23;border-radius:42px;box-shadow:0 24px 55px #17382333}
+.hero-demo{aspect-ratio:590/1206;object-fit:cover;background:#071826}
 .ronnie{position:absolute;width:42%;height:auto;left:-3%;bottom:-2%;filter:drop-shadow(0 12px 0 #1738231f)}
 .hp{position:absolute;z-index:4;left:-6%;top:8%;background:#fff;border:2px solid var(--deep);border-radius:18px;padding:1rem;width:150px;box-shadow:7px 7px 0 var(--yellow)}
 .hp span,.hp small{display:block;font-size:.68rem;font-weight:850;color:var(--muted)}
