@@ -19,6 +19,7 @@
 <meta name="twitter:description" content="A playful, private way to read selected Apple Health signals.">
 <meta name="twitter:image" content="https://healthbar.bahadirsonmez.com/assets/og.jpg">
   <link rel="icon" href="../assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..800,100,0&family=Inter:wght@400;600;700&display=swap">
 <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"SoftwareApplication","name":"HealthBar","applicationCategory":"HealthApplication","operatingSystem":"iOS 17 or later; watchOS","url":"https://healthbar.bahadirsonmez.com/","downloadUrl":"https://apps.apple.com/app/id6773367246","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Bahadir Sonmez","url":"https://bahadirsonmez.com/"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does HealthBar do with Apple Health data?","acceptedAnswer":{"@type":"Answer","text":"You choose which available Apple Health data to share. HealthBar uses those selected signals to create its daily wellness view."}},{"@type":"Question","name":"Is HealthBar a medical device?","acceptedAnswer":{"@type":"Answer","text":"No. HealthBar is a wellness companion, not a medical device. It does not diagnose, treat, or provide medical advice."}},{"@type":"Question","name":"Can I see HealthBar without opening the app?","acceptedAnswer":{"@type":"Answer","text":"HealthBar supports Home Screen and Lock Screen widgets, an Apple Watch companion, and complications for quick check-ins."}},{"@type":"Question","name":"What are tiny quests?","acceptedAnswer":{"@type":"Answer","text":"Tiny quests are manageable wellness suggestions such as water, a walk, a mindful minute, or rest. They are not medical recommendations."}}]}]}</script>
 </head>
@@ -30,7 +31,8 @@
 <span>HealthBar<small>IRL Wellness RPG</small>
 </span>
 </a>
-<nav aria-label="Primary">
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span class="sr-only">Toggle navigation</span><span></span><span></span></button>
+<nav id="site-nav" aria-label="Primary" data-nav>
 <a href="../#how">How it works</a>
 <a href="../#gallery">Screens</a>
 <a class="pill" href="https://apps.apple.com/app/id6773367246">Get HealthBar</a>
@@ -78,6 +80,8 @@
 <strong>Your permissions:</strong> choose which available Apple Health data you share.</li>
 </ul>
 <img src="../assets/screens/iphone/4.jpg" alt="HealthBar App Store screenshot showing tiny wellness quests" loading="lazy" width="415" height="900">
+<h2>Optional AI with Master Ronnie</h2>
+<p>With your permission, HealthBar can give you an AI overview of selected wellness patterns and gentle suggestions for your day, and you can chat with Master Ronnie about habits and progress. HealthKit records are processed on your device; only selected, derived findings are used for AI responses, and you can manage consent and saved conversations in Settings.</p>
 <h2>Private, playful, and grounded</h2>
 <p>HealthBar uses the language of games to make daily signals easier to approach. An HP value is a playful summary inside the app—not a medical measurement or assessment. Your body is more complex than any score, so the experience emphasizes patterns and small wins rather than perfection.</p>
 <section class="faq">
